@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>國家教育研究院 ::研究人員學術典藏系統::</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="favicon.png" rel="icon" type="image/x-icon">
+</head>
+
+<body style="max-height:100vh;">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-0 py-0 py-lg-0">
+            <a href="index.html" title="回首頁"><img src="img/Header.png"></a>
+            <!--a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><img src="img/Logo_Dark_s.png"> 連鎖總部數據中心</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                </div>
+                <a href="#freeapply" class="btn btn-primary py-2 px-4 ms-3">取得聯絡</a>
+            </div-->
+        </nav>
+    </div>
+    <!-- Navbar & Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
+        <!--div class="container py-0" style="padding-top: 20px !important; background:url(img/Title_bg.png) no-repeat; background-position:center top; background-size:135%; background-origin:border-box;"-->
+        <div class="container py-0" style="padding-top: 20px !important;">
+            <img src="img/Researcher01.png" usemap="#image-map" id="map" class="map" style="max-width:93% !important;">
+
+            <map name="image-map">
+                <area target="" alt="計畫" title="計畫" href="cp-researcher02.html#focus" coords="440,923,677,995" shape="rect">
+                <area target="" alt="成果" title="研究成果" href="cp-researcher03.html#focus" coords="681,923,906,995" shape="rect">
+            </map>
+
+        </div>
+    </div>
+    <!-- Service End -->
+    <a name="focus" style="position:absolute;top:545px;"></a>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- image map效果 -->
+    <script src="vendor/jQuery-rwdImageMaps-master/jquery.rwdImageMaps.js"></script>
+    <script>
+    $(document).ready(function (e) {
+
+        $('img#map').rwdImageMaps();
+        
+        $('area').on('mouseover', function (e) {
+            $(this).focus();
+        });
+    });
+    </script>
+    <script type="text/javascript" src="vendor/maphilight-master/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">$(function() {
+          $('.map').maphilight();
+      });
+    </script>
+
+
+</body>
+
+</html>
